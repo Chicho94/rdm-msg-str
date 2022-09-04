@@ -1,16 +1,19 @@
 {
   "name": "rdm-msg-str",
   "version": "1.0.0",
-  "description": "",
+  "description": "Random String Messages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Cesidio Di Benedetto <cesidio94@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
-    "random-Msg": "./bin/global.js"
+    "rdm-str-msg": "./bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
 }
